@@ -39,7 +39,9 @@
 
 .ps-intro-card img {
   width: 100%;
-  height: 120%;
+  height: 500px;              /* control visible area */
+  object-fit: cover;          /* crop instead of stretch */
+  object-position: top center; /* keeps head visible */
   border-radius: 16px;
   box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
